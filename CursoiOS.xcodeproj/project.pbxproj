@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		723FAC9D1C6D3A7400F95854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723FAC9C1C6D3A7400F95854 /* AppDelegate.swift */; };
+		723FAC9F1C6D3A7400F95854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723FAC9E1C6D3A7400F95854 /* ViewController.swift */; };
+		723FACA21C6D3A7400F95854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723FACA01C6D3A7400F95854 /* Main.storyboard */; };
+		723FACA41C6D3A7400F95854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723FACA31C6D3A7400F95854 /* Assets.xcassets */; };
+		723FACA71C6D3A7400F95854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723FACA51C6D3A7400F95854 /* LaunchScreen.storyboard */; };
+		723FACB21C6D3A7400F95854 /* CursoiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723FACB11C6D3A7400F95854 /* CursoiOSTests.swift */; };
+		723FACBD1C6D3A7400F95854 /* CursoiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723FACBC1C6D3A7400F95854 /* CursoiOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		723FACAE1C6D3A7400F95854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 723FAC911C6D3A7400F95854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 723FAC981C6D3A7400F95854;
+			remoteInfo = CursoiOS;
+		};
+		723FACB91C6D3A7400F95854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 723FAC911C6D3A7400F95854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 723FAC981C6D3A7400F95854;
+			remoteInfo = CursoiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		723FAC991C6D3A7400F95854 /* CursoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		723FAC9C1C6D3A7400F95854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		723FAC9E1C6D3A7400F95854 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		723FACA11C6D3A7400F95854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		723FACA31C6D3A7400F95854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		723FACA61C6D3A7400F95854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		723FACA81C6D3A7400F95854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723FACAD1C6D3A7400F95854 /* CursoiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		723FACB11C6D3A7400F95854 /* CursoiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoiOSTests.swift; sourceTree = "<group>"; };
+		723FACB31C6D3A7400F95854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723FACB81C6D3A7400F95854 /* CursoiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		723FACBC1C6D3A7400F95854 /* CursoiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoiOSUITests.swift; sourceTree = "<group>"; };
+		723FACBE1C6D3A7400F95854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		723FAC961C6D3A7400F95854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723FACAA1C6D3A7400F95854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723FACB51C6D3A7400F95854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		723FAC901C6D3A7400F95854 = {
+			isa = PBXGroup;
+			children = (
+				723FAC9B1C6D3A7400F95854 /* CursoiOS */,
+				723FACB01C6D3A7400F95854 /* CursoiOSTests */,
+				723FACBB1C6D3A7400F95854 /* CursoiOSUITests */,
+				723FAC9A1C6D3A7400F95854 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		723FAC9A1C6D3A7400F95854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				723FAC991C6D3A7400F95854 /* CursoiOS.app */,
+				723FACAD1C6D3A7400F95854 /* CursoiOSTests.xctest */,
+				723FACB81C6D3A7400F95854 /* CursoiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		723FAC9B1C6D3A7400F95854 /* CursoiOS */ = {
+			isa = PBXGroup;
+			children = (
+				723FAC9C1C6D3A7400F95854 /* AppDelegate.swift */,
+				723FAC9E1C6D3A7400F95854 /* ViewController.swift */,
+				723FACA01C6D3A7400F95854 /* Main.storyboard */,
+				723FACA31C6D3A7400F95854 /* Assets.xcassets */,
+				723FACA51C6D3A7400F95854 /* LaunchScreen.storyboard */,
+				723FACA81C6D3A7400F95854 /* Info.plist */,
+			);
+			path = CursoiOS;
+			sourceTree = "<group>";
+		};
+		723FACB01C6D3A7400F95854 /* CursoiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				723FACB11C6D3A7400F95854 /* CursoiOSTests.swift */,
+				723FACB31C6D3A7400F95854 /* Info.plist */,
+			);
+			path = CursoiOSTests;
+			sourceTree = "<group>";
+		};
+		723FACBB1C6D3A7400F95854 /* CursoiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				723FACBC1C6D3A7400F95854 /* CursoiOSUITests.swift */,
+				723FACBE1C6D3A7400F95854 /* Info.plist */,
+			);
+			path = CursoiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		723FAC981C6D3A7400F95854 /* CursoiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723FACC11C6D3A7400F95854 /* Build configuration list for PBXNativeTarget "CursoiOS" */;
+			buildPhases = (
+				723FAC951C6D3A7400F95854 /* Sources */,
+				723FAC961C6D3A7400F95854 /* Frameworks */,
+				723FAC971C6D3A7400F95854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CursoiOS;
+			productName = CursoiOS;
+			productReference = 723FAC991C6D3A7400F95854 /* CursoiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		723FACAC1C6D3A7400F95854 /* CursoiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723FACC41C6D3A7400F95854 /* Build configuration list for PBXNativeTarget "CursoiOSTests" */;
+			buildPhases = (
+				723FACA91C6D3A7400F95854 /* Sources */,
+				723FACAA1C6D3A7400F95854 /* Frameworks */,
+				723FACAB1C6D3A7400F95854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				723FACAF1C6D3A7400F95854 /* PBXTargetDependency */,
+			);
+			name = CursoiOSTests;
+			productName = CursoiOSTests;
+			productReference = 723FACAD1C6D3A7400F95854 /* CursoiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		723FACB71C6D3A7400F95854 /* CursoiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723FACC71C6D3A7400F95854 /* Build configuration list for PBXNativeTarget "CursoiOSUITests" */;
+			buildPhases = (
+				723FACB41C6D3A7400F95854 /* Sources */,
+				723FACB51C6D3A7400F95854 /* Frameworks */,
+				723FACB61C6D3A7400F95854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				723FACBA1C6D3A7400F95854 /* PBXTargetDependency */,
+			);
+			name = CursoiOSUITests;
+			productName = CursoiOSUITests;
+			productReference = 723FACB81C6D3A7400F95854 /* CursoiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		723FAC911C6D3A7400F95854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "i cloud 7";
+				TargetAttributes = {
+					723FAC981C6D3A7400F95854 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V6QZ56LAR6;
+					};
+					723FACAC1C6D3A7400F95854 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V6QZ56LAR6;
+						TestTargetID = 723FAC981C6D3A7400F95854;
+					};
+					723FACB71C6D3A7400F95854 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V6QZ56LAR6;
+						TestTargetID = 723FAC981C6D3A7400F95854;
+					};
+				};
+			};
+			buildConfigurationList = 723FAC941C6D3A7400F95854 /* Build configuration list for PBXProject "CursoiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 723FAC901C6D3A7400F95854;
+			productRefGroup = 723FAC9A1C6D3A7400F95854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				723FAC981C6D3A7400F95854 /* CursoiOS */,
+				723FACAC1C6D3A7400F95854 /* CursoiOSTests */,
+				723FACB71C6D3A7400F95854 /* CursoiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		723FAC971C6D3A7400F95854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723FACA71C6D3A7400F95854 /* LaunchScreen.storyboard in Resources */,
+				723FACA41C6D3A7400F95854 /* Assets.xcassets in Resources */,
+				723FACA21C6D3A7400F95854 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723FACAB1C6D3A7400F95854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723FACB61C6D3A7400F95854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		723FAC951C6D3A7400F95854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723FAC9F1C6D3A7400F95854 /* ViewController.swift in Sources */,
+				723FAC9D1C6D3A7400F95854 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723FACA91C6D3A7400F95854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723FACB21C6D3A7400F95854 /* CursoiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723FACB41C6D3A7400F95854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723FACBD1C6D3A7400F95854 /* CursoiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		723FACAF1C6D3A7400F95854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 723FAC981C6D3A7400F95854 /* CursoiOS */;
+			targetProxy = 723FACAE1C6D3A7400F95854 /* PBXContainerItemProxy */;
+		};
+		723FACBA1C6D3A7400F95854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 723FAC981C6D3A7400F95854 /* CursoiOS */;
+			targetProxy = 723FACB91C6D3A7400F95854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		723FACA01C6D3A7400F95854 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				723FACA11C6D3A7400F95854 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		723FACA51C6D3A7400F95854 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				723FACA61C6D3A7400F95854 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		723FACBF1C6D3A7400F95854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		723FACC01C6D3A7400F95854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		723FACC21C6D3A7400F95854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CursoiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "i-cloud-7.CursoiOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		723FACC31C6D3A7400F95854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CursoiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "i-cloud-7.CursoiOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		723FACC51C6D3A7400F95854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CursoiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "i-cloud-7.CursoiOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoiOS.app/CursoiOS";
+			};
+			name = Debug;
+		};
+		723FACC61C6D3A7400F95854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CursoiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "i-cloud-7.CursoiOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoiOS.app/CursoiOS";
+			};
+			name = Release;
+		};
+		723FACC81C6D3A7400F95854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CursoiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "i-cloud-7.CursoiOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CursoiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		723FACC91C6D3A7400F95854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CursoiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "i-cloud-7.CursoiOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CursoiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		723FAC941C6D3A7400F95854 /* Build configuration list for PBXProject "CursoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723FACBF1C6D3A7400F95854 /* Debug */,
+				723FACC01C6D3A7400F95854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		723FACC11C6D3A7400F95854 /* Build configuration list for PBXNativeTarget "CursoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723FACC21C6D3A7400F95854 /* Debug */,
+				723FACC31C6D3A7400F95854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		723FACC41C6D3A7400F95854 /* Build configuration list for PBXNativeTarget "CursoiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723FACC51C6D3A7400F95854 /* Debug */,
+				723FACC61C6D3A7400F95854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		723FACC71C6D3A7400F95854 /* Build configuration list for PBXNativeTarget "CursoiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723FACC81C6D3A7400F95854 /* Debug */,
+				723FACC91C6D3A7400F95854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 723FAC911C6D3A7400F95854 /* Project object */;
+}
